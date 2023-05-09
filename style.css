@@ -1,0 +1,35 @@
+.card{
+    animation: beat 2s;
+}
+@keyframes beat{
+    0%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes move{
+    0%{
+        transform:
+        rotate(-90deg);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+.reem{
+    transform: rotate(45deg);
+    border-radius: 50% 0 0;
+    background-color:rgb(139, 133, 133);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: aliceblue;   
+}
+.edit{
+    margin-top: 90%;
+    margin-left: 10px;
+    font-size: 1.8em;
+}
+
